@@ -2,7 +2,7 @@
     "family": "ExampleTask",
     "containerDefinitions": [
         {
-            "image": "URI:NUMBER",
+            "image": "447895454160.dkr.ecr.us-east-1.amazonaws.com/example/nginx",
             "name": "ExampleContainer",
             "cpu": 0,
             "memory": 128,
