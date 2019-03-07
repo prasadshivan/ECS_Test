@@ -11,7 +11,7 @@ pipeline {
     
     stage('DeployStage') {
       steps {
-        sh aws ecs list-task-definitions --family-prefix ExampleTask
+        sh 'aws ecs list-task-definitions --family-prefix ExampleTask'
       }
     }
    
